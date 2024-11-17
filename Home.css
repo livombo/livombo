@@ -1,0 +1,98 @@
+/* Body */
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Main div */
+.main_div{
+    padding: 20px;
+}
+
+.main_div .sub_div p{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 18%;
+    margin-right: 15%;
+    color: rgb(114, 24, 24);
+}
+
+.main_div .sub_div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(122, 39, 39);
+    margin-top: 10%;
+}
+/* Nav Bar */
+nav{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 20px;
+}
+
+/* Nav Bar Anchors */
+nav a{
+    text-decoration: none;
+    color: rgb(136, 113, 78);
+    margin: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/* Hover effect for Anchors */
+nav a:hover{
+    background-color: rgb(236, 195, 195);
+    color: rgb(128, 39, 39);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Icons */
+.icons{
+    text-align: center;
+    margin-top: 6%;
+    font-size: xx-large;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-facebook{
+    color: rgb(6, 69, 185);
+}
+.fa-youtube{
+    color: rgb(195, 41, 41);
+}
+.fa-twitter{
+    color: rgb(38, 38, 208);
+}
+.fa-tiktok{
+    color: black;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    margin-top: 9%;
+    color: blanchedalmond;
+}
+
+/* responsiveness */
+@media(max-width:1184px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body{
+        background-size: 100% 100%;
+    }
+    
+}

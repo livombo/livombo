@@ -1,0 +1,38 @@
+/* Body */
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_div{
+    color: white;
+    text-align: center;
+}
+
+.icon_div{
+    background-color: darkslategrey;
+    padding: 15px;
+    font-size: larger;
+}
+
+/* Icons */
+.fa-whatsapp{
+    color: green;
+}
+.fa-envelope{
+    color: rgb(202, 61, 61);
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: rgb(255, 64, 0);
+}
+.fa-twitter{
+    color: blue;
+}

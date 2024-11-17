@@ -1,0 +1,16 @@
+/* Div */
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_div{
+    color: white;
+    text-align: center;
+}
+
+.sub_div{
+    font-size: xx-large;
+}
